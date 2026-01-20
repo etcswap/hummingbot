@@ -16,12 +16,14 @@ ETCswap is the leading decentralized exchange on Ethereum Classic, providing:
 The ETCswap connector requires Hummingbot Gateway. Clone and set up the gateway:
 
 ```bash
-git clone https://github.com/hummingbot/hummingbot-gateway.git
+git clone https://github.com/etcswap/hummingbot-gateway.git
 cd hummingbot-gateway
 git checkout etcswap
 pnpm install && pnpm build
 pnpm start
 ```
+
+> **Note:** This uses the ETCswap fork. Once merged upstream, use `https://github.com/hummingbot/hummingbot-gateway.git`.
 
 ### 2. Connect Gateway in Hummingbot
 

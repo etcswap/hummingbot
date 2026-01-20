@@ -132,6 +132,13 @@ ETCswap is available in Hummingbot via the Gateway middleware. The connector nam
 
 **No code changes needed in this repo for ETCswap** - it's all implemented in the Gateway repo.
 
+**Documentation:** See [docs/etcswap/](../docs/etcswap/) for ETCswap integration guide.
+
+**Cross-Chain Arbitrage:** Use the `amm_arb` strategy with:
+- Primary: `coinbase` with `ETC-USDC`
+- Secondary: `etcswap_ethereum_classic` with `ETC-USC`
+- USC is 1:1 with USDC through [Brale Platform](https://brale.xyz)
+
 ## Protected Files
 
 Do not modify without explicit request:

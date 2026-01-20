@@ -169,6 +169,7 @@ Currently, the master branch of Hummingbot also includes the following exchange 
 | [Trader Joe](https://hummingbot.org/exchanges/gateway/traderjoe/) | AMM DEX | AMM | `traderjoe` | - |
 | [Uniswap](https://hummingbot.org/exchanges/gateway/uniswap/) | AMM DEX | Router, AMM, CLMM | `uniswap` | - |
 | [Vertex](https://hummingbot.org/exchanges/vertex/) | CLOB DEX | Spot | `vertex` | - |
+| [ETCswap](docs/etcswap/) | AMM DEX | Router, AMM, CLMM | `etcswap` | - |
 
 ## Other Hummingbot Repos
 

@@ -124,9 +124,9 @@ Gateway connectors are configured in Gateway, not Hummingbot. The `GatewayHttpCl
 ## ETCswap Integration
 
 ETCswap is available in Hummingbot via the Gateway middleware. The connector names are:
+- `etcswap/router` - Universal Router for optimized cross-V2/V3 routing ✅
 - `etcswap/amm` - V2 AMM swaps and liquidity ✅
 - `etcswap/clmm` - V3 concentrated liquidity swaps ✅
-- `etcswap/router` - Universal Router swaps (future enhancement)
 
 **Networks supported:** `classic` (mainnet), `mordor` (testnet)
 
